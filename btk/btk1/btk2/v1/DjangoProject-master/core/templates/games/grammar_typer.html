@@ -197,15 +197,17 @@
 
       <div class="mistake-summary" id="mistakeSummary"></div>
 
-      <div class="action-buttons">
-        <button class="secondary-button" onclick="window.location.href='index.html'">
-          <span class="material-icons">home</span>
-          Home
-        </button>
-        <button class="primary-button" id="playAgain">
-          <span class="material-icons">refresh</span>
-          Play Again
-        </button>
+     <div class="action-buttons">
+  <a href="{% url 'dashboard' %}" class="secondary-button">
+    <span class="material-icons">home</span> Home
+  </a>
+
+  <button class="primary-button" id="playAgain">
+    <span class="material-icons">refresh</span>
+    Play Again
+  </button>
+</div>
+
       </div>
     </div>
   </div>
